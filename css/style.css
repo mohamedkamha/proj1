@@ -1,0 +1,169 @@
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    z-index: 5555;
+    background-color: #f8f6f6;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+
+
+.nav.animate {
+    left: 250px;
+}
+
+.nav .logo img {
+    width: 48px;
+}
+
+.menus {
+    font-size: 25px;
+}
+
+.menu {
+    width: 250px;
+    z-index: 999999;
+    background-color: #000;
+    transition: all 0.6s ease;
+    transform: translateX(-100%);
+}
+
+.menu ul {
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.menu.animate {
+    transform: scale(1);
+}
+
+.menu ul li {
+    list-style: none;
+    padding-top: 500px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f9f6f6 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.down-bar {
+    position: absolute;
+    bottom: 100px;
+}
+
+.down-bar a {
+    color: #999;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.copy-down {
+    color: #999;
+}
+
+#open-nav {
+    cursor: pointer;
+}
+
+
+/* -----------------start 1 sec------------------------------------- */
+
+body {
+    background-color: #000000f2;
+}
+
+.img1 {
+    overflow: hidden;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    transition: .5s;
+    top: 100%;
+
+}
+
+.layer h3 {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-17%);
+
+}
+
+
+.img1:hover .layer {
+    transition: .5s all;
+    inset: 0;
+}
+
+.area {
+    cursor: pointer;
+}
+
+.area i {
+    color: red;
+
+}
+
+.area h2 {
+    color: white;
+}
+
+.area p {
+    color: white;
+}
+
+
+
+.h-category {
+    position: static !important;
+    text-align: center;
+}
+
+.title-h {
+    font-size: 16;
+    font-weight: 300;
+}
+
+
+.title-span {
+    font-weight: 500;
+}
+
+
+
+.btn1{
+    color: aliceblue;
+    background-color: green;
+    }
+    .btn2{
+    color: aliceblue;
+    background-color: brown;
+    }
+
+
+
+    .btn-3{
+        color: brown;
+        border: solid brown;
+        width: fit-content;
+        margin: auto;
+        margin-top: 25px;
+        }
+        
+        .form-control{
+        margin: 5px;
+        }
